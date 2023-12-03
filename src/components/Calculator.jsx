@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 export default function Calculator() {
-    const [weight, setWeight] = useState('');
-    const [height, setHeight] = useState('');
-    const [bmi, setBmi] = useState('');
-    const [result, setResult] = useState('');
+    const [weight, setWeight] = useState(80);
+    const [height, setHeight] = useState(185);
+    const [bmi, setBmi] = useState(23.37);
+    const [result, setResult] = useState('Normal weight');
     const [unit, setUnit] = useState(true);
 
     const handleSubmit = (e) => {
