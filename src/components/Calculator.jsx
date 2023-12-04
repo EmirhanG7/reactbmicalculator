@@ -8,19 +8,36 @@ export default function Calculator() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const h = height ;
-        const b = weight / ((h * h) / 100000);
-        setBmi(b.toFixed(2));
-        if (b < 18.5) {
-            setResult('Underweight');
-        } else if (b >= 18.5 && b < 25) {
-            setResult('Normal weight');
-        } else if (b >= 25 && b < 30) {
-            setResult('Overweight');
+        if (unit) {
+            const h = height ;
+            const b = weight / ((h * h) / 100000);
+            setBmi(b.toFixed(2));
+            if (b < 18.5) {
+                setResult('Underweight');
+            } else if (b >= 18.5 && b < 25) {
+                setResult('Normal weight');
+            } else if (b >= 25 && b < 30) {
+                setResult('Overweight');
+            } else {
+                setResult('Obesity');
+            }
         } else {
-            setResult('Obesity');
+            const h = height ;
+            const b = 703 * (weight / ((h * h) / 10));
+            setBmi(b.toFixed(2));
+            if (b < 18.5) {
+                setResult('Underweight');
+            } else if (b >= 18.5 && b < 25) {
+                setResult('Normal weight');
+            } else if (b >= 25 && b < 30) {
+                setResult('Overweight');
+            } else {
+                setResult('Obesity');
+            }
+
         }
-    };
+
+    }
     
 
     return (
