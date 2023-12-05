@@ -3,7 +3,7 @@ export default function YourResult() {
         <>
             <div className="results">
                 <div className="resultsImage">
-                    <img src="./public/images/image-removebg.jpg" alt="" />
+                    <img src="./images/image-removebg.jpg" alt="" />
                 </div>
                 <div className="resultsText">
                     <h3>What your BMI result<br />means</h3>

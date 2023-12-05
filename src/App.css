@@ -259,7 +259,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .resultsImage {
-    background-image: url(./public/images/rectangle-8.png);
+    background-image: url(./images/rectangle-8.png);
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -321,21 +321,21 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .tips1 img {
-    background-image: url(./public/images/ellipse-1.svg);
+    background-image: url(./images/ellipse-1.svg);
     border-radius: 50%;
     padding: 16px;
 }
 
 
 .tips2 img {
-    background-image: url(./public/images/ellipse-2.svg);
+    background-image: url(./images/ellipse-2.svg);
     border-radius: 50%;
     padding: 16px;
 }
 
 
 .tips3 img {
-    background-image: url(./public/images/ellipse-3.svg);
+    background-image: url(./images/ellipse-3.svg);
     border-radius: 50%;
     padding: 16px;
 }

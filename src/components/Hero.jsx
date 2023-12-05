@@ -6,7 +6,7 @@ export default function Hero( {handleFormSubmit} ) {
             <div className="hero">
                 <div className="heroBackground">
                     <div className="logo">
-                        <img src="./public/images/game-icons-abstract-082.svg" alt=""  />
+                        <img src="./images/game-icons-abstract-082.svg" alt=""  />
                     </div>
                     <div className="heroContent">
                         <h1>Body Mass<br/>Index Calculator</h1>
